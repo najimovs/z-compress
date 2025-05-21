@@ -1,0 +1,18 @@
+{
+	"name": "z-compress",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^6.3.5",
+		"vite-plugin-eslint": "^1.8.1"
+	},
+	"dependencies": {
+		"@oneidentity/zstd-js": "^1.0.3"
+	}
+}
